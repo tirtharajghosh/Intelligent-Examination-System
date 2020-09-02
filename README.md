@@ -120,14 +120,14 @@ $ npm start
 
 ---
 
-## Team
+## Author
 
-> "None of us is smart as all of us."
+> "The future depends on what you do today."
 
 | <a href="https://github.com/tirtharajghosh" target="_blank">**Tirtharaj Ghosh**</a> | 
 | :---: |
 | [![Webircle](https://avatars1.githubusercontent.com/u/58604532?v=3&s=200)](https://github.com/tirtharajghosh)    |
-| <a href="http://github.com/tirtharajghosh" target="_blank">`CEO, Founder of Webircle`</a> |
+| <a href="http://github.com/tirtharajghosh" target="_blank">`MCA, Jadavpur University`</a> |
 
 ---
 
@@ -142,9 +142,9 @@ $ npm start
 
 Reach out to me at one of the following places!
 
-- Website at <a href="https://webircle.com" target="_blank">`webircle.com`</a>
-- Facebook at <a href="https://www.facebook.com/webircle/" target="_blank">Webircle</a>
-- Github at <a href="https://github.com/webircle" target="_blank">`@webircle`</a>
+- Facebook at <a href="https://www.facebook.com/10dc512551322a1d52f0887e6725495a/" target="_blank">Tirtharaj Ghosh</a>
+- LinkedIn at <a href="https://www.linkedin.com/in/tirtharaj-g-9b422812a/" target="_blank">Tirtharaj Ghosh</a>
+- Github at <a href="https://github.com/tirtharajghosh" target="_blank">`@tirtharajghosh`</a>
 
 ---
 
@@ -163,4 +163,4 @@ Reach out to me at one of the following places!
 
 ## Copyright
 
-Copyright 2020 © <a href="https://webircle.com" target="_blank">Webircle</a>.
+Copyright 2020 © <a href="https://tirtharajghosh.github.io" target="_blank">Tirtharaj Ghosh</a>.
