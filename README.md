@@ -9,7 +9,7 @@
 > Intelligent Examination System aka iES is an online examination system with features like Anti-cheat, Timer, Auto-submit, Resumable on Accidental Shutdown etc.
 
 
-> [![Build Status](http://img.shields.io/travis/badges/badgerbadgerbadger.svg?style=flat-square)](https://webircle.com) [![Copyright](https://img.shields.io/static/v1?label=Status&message=Under%20Development&color=yellow)](https://webircle.com) [![Copyright](https://img.shields.io/badge/Copyright-Webircle-blue)](https://webircle.com) 
+> [![Build Status](http://img.shields.io/travis/badges/badgerbadgerbadger.svg?style=flat-square)](https://webircle.com) [![Copyright](https://img.shields.io/static/v1?label=Status&message=Under%20Development&color=yellow)](https://webircle.com) 
 
 <!-- **Badges will go here**
 
