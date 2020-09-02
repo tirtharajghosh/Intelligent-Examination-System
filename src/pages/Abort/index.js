@@ -10,7 +10,7 @@ export default class Welcome extends Component{
                 <Header/>
                 <div className="container-welcome">
                     <Card className="text-center">
-                        <Card.Header><strong>Intelli Examination System</strong></Card.Header>
+                        <Card.Header><strong>Intelligent Examination System</strong></Card.Header>
                         <Card.Body>
                             <Card.Title>Have a good day!</Card.Title>
                             <Alert variant={"danger"}>

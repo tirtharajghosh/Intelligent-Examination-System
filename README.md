@@ -58,7 +58,7 @@
 
 ## Table of Contents
 
-- [iES](#ies)
+- [Intelligent-Examination-System](#intelligent-examination-system)
   - [Table of Contents](#table-of-contents)
   - [Lets' dive in.](#lets-dive-in)
   - [Installation](#installation)
@@ -109,11 +109,11 @@ $ brew update
 $ brew install Webircle
 ```
 
-> now install npm and bower packages
+> now install npm and start
 
 ```shell
 $ npm install
-$ bower install
+$ npm start
 ```
 
 - Now you can start using the amazing thing made by me.

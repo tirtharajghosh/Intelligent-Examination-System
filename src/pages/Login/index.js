@@ -29,7 +29,7 @@ class Login extends Component{
     exitHandler = () => {
         this.isFSEnabled = this.checkFullScreen();
         if(!this.isFSEnabled){
-            //this.props.history.push('/abort');
+            this.props.history.push('/abort');
             console.log("Normal - "+this.isFSEnabled)
         } else {
             console.log("Maximized - "+this.isFSEnabled)
@@ -74,7 +74,7 @@ class Login extends Component{
                                 </Link>
                             </Form>
                         </Card.Body>
-                        <Card.Footer className="text-muted">Intelli Examination System</Card.Footer>
+                        <Card.Footer className="text-muted">Intelligent Examination System</Card.Footer>
                     </Card>
                 </div>
                 <Footer/>

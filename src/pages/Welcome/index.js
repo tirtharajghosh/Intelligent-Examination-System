@@ -30,7 +30,7 @@ export default class Welcome extends Component{
                                     );
                                 }} >Start</Button>
                         </Card.Body>
-                        <Card.Footer className="text-muted">Intelli Examination System</Card.Footer>
+                        <Card.Footer className="text-muted">Intelligent Examination System</Card.Footer>
                     </Card>
                 </div>
             <Footer/>
