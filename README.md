@@ -102,14 +102,7 @@ To install it, follow the following procedures.
 
 - Now go to the folder and do the following:
 
-> update and install this package first
-
-```shell
-$ brew update
-$ brew install Webircle
-```
-
-> now install npm and start
+> Install the dependencies and start the project
 
 ```shell
 $ npm install
