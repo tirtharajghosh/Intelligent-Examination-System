@@ -94,9 +94,9 @@ let doProject = project => {
 
 To install it, follow the following procedures.
 
-### Clone
+### Fork & Clone
 
-- Clone this repo to your local machine using `https://github.com/Webircle/Intelligent-Examination-System`
+- Fork and Clone this repo to your local machine.
 
 ### Setup
 
