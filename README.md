@@ -1,4 +1,4 @@
-<a href="https://webircle.com"><img src="https://avatars1.githubusercontent.com/u/53415706?v=3&s=200" title="Webircle" alt="Webircle"></a>
+<!-- <a href="https://webircle.com"><img src="https://avatars1.githubusercontent.com/u/53415706?v=3&s=200" title="Webircle" alt="Webircle"></a> -->
 
 <!-- [![Webircle](https://avatars1.githubusercontent.com/u/4284691?v=3&s=200)](https://webircle.com) -->
 <!-- 
@@ -9,7 +9,7 @@
 > Intelligent Examination System aka iES is an online examination system with features like Anti-cheat, Timer, Auto-submit, Resumable on Accidental Shutdown etc.
 
 
-> [![Build Status](http://img.shields.io/travis/badges/badgerbadgerbadger.svg?style=flat-square)](https://webircle.com) [![Copyright](https://img.shields.io/static/v1?label=Status&message=Under%20Development&color=yellow)](https://webircle.com) [![Copyright](https://img.shields.io/badge/Copyright-Webircle-blue)](https://webircle.com) 
+> [![Build Status](http://img.shields.io/travis/badges/badgerbadgerbadger.svg?style=flat-square)](https://webircle.com) [![Copyright](https://img.shields.io/static/v1?label=Status&message=Under%20Development&color=yellow)](https://webircle.com) 
 
 <!-- **Badges will go here**
 
@@ -29,9 +29,9 @@
 - For more on these wonderful ~~badgers~~ badges, refer to <a href="http://badges.github.io/badgerbadgerbadger/" target="_blank">`badgerbadgerbadger`</a>.
 
 ***INSERT ANOTHER GRAPHIC HERE***
-
-[![INSERT YOUR GRAPHIC HERE](http://i.imgur.com/dt8AUb6.png)]()
-
+-->
+[![Screenshot](https://dev.webircle.com/static_files/public/iES/Screenshot%20(296).png)]()
+<!--
 - Most people will glance at your `README`, *maybe* star it, and leave
 - Ergo, people should understand instantly what your project is about based on your repo
 
@@ -94,9 +94,9 @@ let doProject = project => {
 
 To install it, follow the following procedures.
 
-### Clone
+### Fork & Clone
 
-- Clone this repo to your local machine using `https://github.com/Webircle/Intelligent-Examination-System`
+- Fork and Clone this repo to your local machine.
 
 ### Setup
 
@@ -120,14 +120,14 @@ $ npm start
 
 ---
 
-## Team
+## Author
 
-> "None of us is smart as all of us."
+> "The future depends on what you do today."
 
 | <a href="https://github.com/tirtharajghosh" target="_blank">**Tirtharaj Ghosh**</a> | 
 | :---: |
 | [![Webircle](https://avatars1.githubusercontent.com/u/58604532?v=3&s=200)](https://github.com/tirtharajghosh)    |
-| <a href="http://github.com/tirtharajghosh" target="_blank">`CEO, Founder of Webircle`</a> |
+| <a href="http://github.com/tirtharajghosh" target="_blank">`MCA, Jadavpur University`</a> |
 
 ---
 
@@ -142,9 +142,9 @@ $ npm start
 
 Reach out to me at one of the following places!
 
-- Website at <a href="https://webircle.com" target="_blank">`webircle.com`</a>
-- Facebook at <a href="https://www.facebook.com/webircle/" target="_blank">Webircle</a>
-- Github at <a href="https://github.com/webircle" target="_blank">`@webircle`</a>
+- Facebook at <a href="https://www.facebook.com/10dc512551322a1d52f0887e6725495a/" target="_blank">Tirtharaj Ghosh</a>
+- LinkedIn at <a href="https://www.linkedin.com/in/tirtharaj-g-9b422812a/" target="_blank">Tirtharaj Ghosh</a>
+- Github at <a href="https://github.com/tirtharajghosh" target="_blank">`@tirtharajghosh`</a>
 
 ---
 
@@ -163,4 +163,4 @@ Reach out to me at one of the following places!
 
 ## Copyright
 
-Copyright 2020 © <a href="https://webircle.com" target="_blank">Webircle</a>.
+Copyright 2020 © <a href="https://tirtharajghosh.github.io" target="_blank">Tirtharaj Ghosh</a>.
