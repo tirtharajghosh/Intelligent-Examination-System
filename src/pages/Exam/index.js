@@ -1,8 +1,9 @@
 import React, {Component, Fragment} from "react";
 import {Button, Card, Col, Nav, Container, Row, FormCheck, Accordion} from "react-bootstrap";
 import {Link, withRouter} from "react-router-dom";
-import Popup from "reactjs-popup";
+//import Popup from "reactjs-popup";
 
+import Main from "./main";
 import Header from "../../layouts/HeaderExam";
 import Countdown from "react-countdown";
 import Footer from "../../layouts/Footer";
@@ -25,32 +26,32 @@ class Exam extends Component{
         });
     }
 
-    componentDidMount() {
-        this.exitHandler();
-        if (document.addEventListener)
-        {
-            document.addEventListener('fullscreenchange', this.exitHandler, false);
-            document.addEventListener('mozfullscreenchange', this.exitHandler, false);
-            document.addEventListener('MSFullscreenChange', this.exitHandler, false);
-            document.addEventListener('webkitfullscreenchange', this.exitHandler, false);
-        }
-    }
+    // componentDidMount() {
+    //     this.exitHandler();
+    //     if (document.addEventListener)
+    //     {
+    //         document.addEventListener('fullscreenchange', this.exitHandler, false);
+    //         document.addEventListener('mozfullscreenchange', this.exitHandler, false);
+    //         document.addEventListener('MSFullscreenChange', this.exitHandler, false);
+    //         document.addEventListener('webkitfullscreenchange', this.exitHandler, false);
+    //     }
+    // }
 
-    exitHandler = () => {
-        this.isFSEnabled = this.checkFullScreen();
-        if(!this.isFSEnabled){
-            //this.props.history.push('/abort');
-            console.log("Normal - "+this.isFSEnabled)
-        } else {
-            console.log("Maximized - "+this.isFSEnabled)
-        }
-    }
+    // exitHandler = () => {
+    //     this.isFSEnabled = this.checkFullScreen();
+    //     if(!this.isFSEnabled){
+    //         //this.props.history.push('/abort');
+    //         console.log("Normal - "+this.isFSEnabled)
+    //     } else {
+    //         console.log("Maximized - "+this.isFSEnabled)
+    //     }
+    // }
 
-    checkFullScreen = () => {
-        const doc = window.document;
+    // checkFullScreen = () => {
+    //     const doc = window.document;
 
-        return !(!doc.fullscreenElement && !doc.mozFullScreenElement && !doc.webkitFullscreenElement && !doc.msFullscreenElement);
-    }
+    //     return !(!doc.fullscreenElement && !doc.mozFullScreenElement && !doc.webkitFullscreenElement && !doc.msFullscreenElement);
+    // }
 
     render() {
         const exam = {
@@ -238,6 +239,7 @@ class Exam extends Component{
             </Nav.Item>
         )
 
+
         return (
             <Fragment>
                 <Header action={ headerData }/>
@@ -250,23 +252,7 @@ class Exam extends Component{
                                         { tabs }
                                     </Nav>
                                 </Card.Header>
-                                <Card.Body>
-                                    <Card.Title className="text-danger"> Question { this.state.currentQuestion+1 } </Card.Title>
-                                    <Card.Text className="scrollable-panel">
-                                        { exam.topics[0].qa[this.state.currentQuestion].q }
-                                    </Card.Text>
-                                    <div className="option-answer">
-                                        <FormCheck className="answer-box" type="radio" name="ans" label={ exam.topics[0].qa[this.state.currentQuestion].o1 } />
-                                        <FormCheck className="answer-box" type="radio" name="ans" label={ exam.topics[0].qa[this.state.currentQuestion].o2 } />
-                                        <FormCheck className="answer-box" type="radio" name="ans" label={ exam.topics[0].qa[this.state.currentQuestion].o3 } />
-                                        <FormCheck className="answer-box" type="radio" name="ans" label={ exam.topics[0].qa[this.state.currentQuestion].o4 } />
-                                    </div>
-                                </Card.Body>
-                                <Card.Footer className="text-muted">
-                                    <Button className="pull-left mr-1" variant="warning">Mark for review</Button>
-                                    <Button className="pull-left" variant="danger">Clear response</Button>
-                                    <Button className="pull-right" variant="success">Save & next</Button>
-                                </Card.Footer>
+                                <Main topicId={1} questionId={1} />
                             </Card>
                         </Col>
                         <Col xs="3">

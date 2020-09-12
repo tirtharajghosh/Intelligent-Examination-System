@@ -14,7 +14,7 @@ export default class Header extends Component{
                     <div className="logo" >
                         <img src={logo} alt="logo" />
                         <span className="title">
-                            Webircle iES
+                            iES
                         </span>
                     </div>
                     <div className="exam-name">

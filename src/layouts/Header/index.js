@@ -8,7 +8,7 @@ export default class Header extends Component{
                     <a className="logo" href="/">
                         <img src={logo} alt="logo" />
                         <span className="title">
-                            Webircle iES
+                            iES
                         </span>
                     </a>
 
