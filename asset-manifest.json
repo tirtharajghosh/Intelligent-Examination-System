@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/tirtharajghosh/Intelligent-Examination-System/static/css/main.f3a89f4e.chunk.css",
+    "main.js": "/tirtharajghosh/Intelligent-Examination-System/static/js/main.dd536584.chunk.js",
+    "main.js.map": "/tirtharajghosh/Intelligent-Examination-System/static/js/main.dd536584.chunk.js.map",
+    "runtime-main.js": "/tirtharajghosh/Intelligent-Examination-System/static/js/runtime-main.31413e83.js",
+    "runtime-main.js.map": "/tirtharajghosh/Intelligent-Examination-System/static/js/runtime-main.31413e83.js.map",
+    "static/css/2.829c9cb5.chunk.css": "/tirtharajghosh/Intelligent-Examination-System/static/css/2.829c9cb5.chunk.css",
+    "static/js/2.431a3826.chunk.js": "/tirtharajghosh/Intelligent-Examination-System/static/js/2.431a3826.chunk.js",
+    "static/js/2.431a3826.chunk.js.map": "/tirtharajghosh/Intelligent-Examination-System/static/js/2.431a3826.chunk.js.map",
+    "index.html": "/tirtharajghosh/Intelligent-Examination-System/index.html",
+    "precache-manifest.58e0853d809b912fb37435c761516b0d.js": "/tirtharajghosh/Intelligent-Examination-System/precache-manifest.58e0853d809b912fb37435c761516b0d.js",
+    "service-worker.js": "/tirtharajghosh/Intelligent-Examination-System/service-worker.js",
+    "static/css/2.829c9cb5.chunk.css.map": "/tirtharajghosh/Intelligent-Examination-System/static/css/2.829c9cb5.chunk.css.map",
+    "static/css/main.f3a89f4e.chunk.css.map": "/tirtharajghosh/Intelligent-Examination-System/static/css/main.f3a89f4e.chunk.css.map",
+    "static/js/2.431a3826.chunk.js.LICENSE.txt": "/tirtharajghosh/Intelligent-Examination-System/static/js/2.431a3826.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.31413e83.js",
+    "static/css/2.829c9cb5.chunk.css",
+    "static/js/2.431a3826.chunk.js",
+    "static/css/main.f3a89f4e.chunk.css",
+    "static/js/main.dd536584.chunk.js"
+  ]
+}
