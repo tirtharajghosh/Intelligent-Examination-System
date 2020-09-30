@@ -6,7 +6,7 @@
 
 # Intelligent-Examination-System
 
-> Intelligent Examination System aka iES is an online examination system with features like Anti-cheat, Timer, Auto-submit, Resumable on Accidental Shutdown etc.
+> Intelligent Examination System aka iES is an online examination system with features like Full-screen environment, Anti-cheat, Timer etc.
 
 
 > [![Build Status](http://img.shields.io/travis/badges/badgerbadgerbadger.svg?style=flat-square)](https://webircle.com) [![Copyright](https://img.shields.io/static/v1?label=Status&message=Under%20Development&color=yellow)](https://webircle.com) 
