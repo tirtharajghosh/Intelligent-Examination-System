@@ -17,6 +17,14 @@ class Exam extends Component{
         };
         console.log(Date.now());
         this.checkboxhandler = this.checkboxhandler.bind(this);
+        this.handleClickNext = this.handleClickNext.bind(this);
+    }
+
+    handleClickNext() {
+        document.getElementsByName("ans").forEach(item => {item.checked = false})
+        this.setState(prevState => {
+           return {currentQuestion: (prevState.currentQuestion + 1)%15}
+        })
     }
 
     checkboxhandler() {
@@ -234,7 +242,7 @@ class Exam extends Component{
 
         const tabs = exam.topics.map( (topic, inc) =>
             <Nav.Item key={inc}>
-                <Nav.Link href={ "#"+inc}>{ topic.name }</Nav.Link>
+                <Nav.Link href={ "#"+inc} disabled={inc!=0}>{ topic.name }</Nav.Link>
             </Nav.Item>
         )
 
@@ -265,7 +273,7 @@ class Exam extends Component{
                                 <Card.Footer className="text-muted">
                                     <Button className="pull-left mr-1" variant="warning">Mark for review</Button>
                                     <Button className="pull-left" variant="danger">Clear response</Button>
-                                    <Button className="pull-right" variant="success">Save & next</Button>
+                                    <Button className="pull-right" variant="success" onClick={this.handleClickNext}>Save & next</Button>
                                 </Card.Footer>
                             </Card>
                         </Col>
@@ -274,7 +282,7 @@ class Exam extends Component{
                                 <Card.Body className="text-center">
                                     <Card.Text>
                                         <strong>Time left: <Countdown
-                                            date={ Date.now() + 2510000}
+                                            date={ Date.now() + 3600000}
                                         /></strong>
                                     </Card.Text>
                                 </Card.Body>

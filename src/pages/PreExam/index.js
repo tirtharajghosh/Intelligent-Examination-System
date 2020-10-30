@@ -135,7 +135,7 @@ class PreExam extends Component{
                         <Card border="danger">
                         <Card.Body>
                             <Card.Text>
-                                Time left: { exam.duration }
+                                Time left: { exam.duration } minutes
                             </Card.Text>
                         </Card.Body>
                         </Card>
