@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Intelligent-Examination-System/static/css/main.54a5bb88.chunk.css",
+    "main.js": "/Intelligent-Examination-System/static/js/main.dd826a3c.chunk.js",
+    "main.js.map": "/Intelligent-Examination-System/static/js/main.dd826a3c.chunk.js.map",
+    "runtime-main.js": "/Intelligent-Examination-System/static/js/runtime-main.7d0e61d6.js",
+    "runtime-main.js.map": "/Intelligent-Examination-System/static/js/runtime-main.7d0e61d6.js.map",
+    "static/css/2.6e90b12a.chunk.css": "/Intelligent-Examination-System/static/css/2.6e90b12a.chunk.css",
+    "static/js/2.3c2a160f.chunk.js": "/Intelligent-Examination-System/static/js/2.3c2a160f.chunk.js",
+    "static/js/2.3c2a160f.chunk.js.map": "/Intelligent-Examination-System/static/js/2.3c2a160f.chunk.js.map",
+    "index.html": "/Intelligent-Examination-System/index.html",
+    "precache-manifest.8d7692c250e80663439709e35d4e6b48.js": "/Intelligent-Examination-System/precache-manifest.8d7692c250e80663439709e35d4e6b48.js",
+    "service-worker.js": "/Intelligent-Examination-System/service-worker.js",
+    "static/css/2.6e90b12a.chunk.css.map": "/Intelligent-Examination-System/static/css/2.6e90b12a.chunk.css.map",
+    "static/css/main.54a5bb88.chunk.css.map": "/Intelligent-Examination-System/static/css/main.54a5bb88.chunk.css.map",
+    "static/js/2.3c2a160f.chunk.js.LICENSE.txt": "/Intelligent-Examination-System/static/js/2.3c2a160f.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7d0e61d6.js",
+    "static/css/2.6e90b12a.chunk.css",
+    "static/js/2.3c2a160f.chunk.js",
+    "static/css/main.54a5bb88.chunk.css",
+    "static/js/main.dd826a3c.chunk.js"
+  ]
+}
