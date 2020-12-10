@@ -55,7 +55,7 @@
 ![ttystudio GIF](https://raw.githubusercontent.com/chjj/ttystudio/master/img/example.gif)
 
 --- -->
-
+<a href="https://master.d26a7s8lalktxj.amplifyapp.com/" target="_blank">Demo</a>
 ## Table of Contents
 
 - [Intelligent-Examination-System](#intelligent-examination-system)
