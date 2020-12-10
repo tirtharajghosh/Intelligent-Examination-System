@@ -1,7 +1,6 @@
 {
   "name": "intelligent-examination-system",
   "version": "0.1.0",
-  "homepage": "https://tirtharajghosh.github.io/Intelligent-Examination-System/",
   "private": true,
   "dependencies": {
     "bootstrap": "^4.5.0",
